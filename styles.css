@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4A154B;
+}
+
+.logo {
+    height: 40px;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #4A154B;
+    color: #fff;
+}
+
+.intro-section h1 {
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+.intro-section span {
+    color: #ECB22E;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ECB22E;
+    color: #4A154B;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.preview-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.preview-image {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.companies-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.company-logo {
+    height: 40px;
+}
+
+.messaging-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.message-preview {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-image {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.message-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4A154B;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: #ECB22E;
+    color: #4A154B;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
